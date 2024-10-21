@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="my-5">
+    <div class="container">
+        <h3 class="text-center mb-4">Tables</h3>
+
+        <div class="row">
+            <div class="col">
+                <table class="table table-primary">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center">Dark table</h5>
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center">Table Rows style</h5>
+                <table class="table">
+                    <thead>
+                        <tr class="table-secondary">
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-success">
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr class="table-info">
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center"> striped Table</h5>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center"> striped Table coloumns</h5>
+                <table class="table table-striped-columns">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center"> Hovered Table</h5>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center"> Table Active</h5>
+                <table class="table">
+                    <thead>
+                        <tr class="table-active">
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center"> Bordered Table</h5>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="table-active">
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center"> Bordered with color Table</h5>
+                <table class="table table-bordered border-danger">
+                    <thead>
+                        <tr class="table-active">
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center"> Borderless Table</h5>
+                <table class="table table-borderless">
+                    <thead>
+                        <tr class="table-active">
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center"> compact Table</h5>
+                <table class="table table-sm">
+                    <thead>
+                        <tr class="table-active">
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center"> Divider Table</h5>
+                <table class="table table-group-divider">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">email</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>mark@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>jac@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td>Mary</td>
+                            <td>Jane@xyz.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h5 class="text-center"> Nested Table</h5>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jane</td>
+                            <td><table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Emma</td>
+                                        <td>Watson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sophia</td>
+                                        <td>Johnson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ava</td>
+                                        <td>Davis</td>
+                                    </tr>
+                                </tbody>
+                            </table></td>
+                        </tr>
+                    </tbody>
+                    </table>
+                    <hr>
+                    <h5 class="text-center">Table with caption</h5>
+                    <table class="table">
+                        <caption class="text-center caption-top">Demo Table</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>mark@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>jac@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Jane</td>
+                                <td>Mary</td>
+                                <td>Jane@xyz.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                 
+                        <h5 class="text-center">Responsive Table</h5>
+                        <div class="table-responsive">
+                          
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading </th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading </th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading</th>
+                                                <th>Heading </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Data 1</td>
+                                                <td>Data 2</td>
+                                                <td>Data 3</td>
+                                                <td>Data 4</td>
+                                                <td>Data 5</td>
+                                                <td>Data 6</td>
+                                                <td>Data 7</td>
+                                                <td>Data 8</td>
+                                                <td>Data 9</td>
+                                                <td>Data 10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data 1</td>
+                                                <td>Data 2</td>
+                                                <td>Data 3</td>
+                                                <td>Data 4</td>
+                                                <td>Data 5</td>
+                                                <td>Data 6</td>
+                                                <td>Data 7</td>
+                                                <td>Data 8</td>
+                                                <td>Data 9</td>
+                                                <td>Data 10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data 1</td>
+                                                <td>Data 2</td>
+                                                <td>Data 3</td>
+                                                <td>Data 4</td>
+                                                <td>Data 5</td>
+                                                <td>Data 6</td>
+                                                <td>Data 7</td>
+                                                <td>Data 8</td>
+                                                <td>Data 9</td>
+                                                <td>Data 10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data 1</td>
+                                                <td>Data 2</td>
+                                                <td>Data 3</td>
+                                                <td>Data 4</td>
+                                                <td>Data 5</td>
+                                                <td>Data 6</td>
+                                                <td>Data 7</td>
+                                                <td>Data 8</td>
+                                                <td>Data 9</td>
+                                                <td>Data 10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data 1</td>
+                                                <td>Data 2</td>
+                                                <td>Data 3</td>
+                                                <td>Data 4</td>
+                                                <td>Data 5</td>
+                                                <td>Data 6</td>
+                                                <td>Data 7</td>
+                                                <td>Data 8</td>
+                                                <td>Data 9</td>
+                                                <td>Data 10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data 1</td>
+                                                <td>Data 2</td>
+                                                <td>Data 3</td>
+                                                <td>Data 4</td>
+                                                <td>Data 5</td>
+                                                <td>Data 6</td>
+                                                <td>Data 7</td>
+                                                <td>Data 8</td>
+                                                <td>Data 9</td>
+                                                <td>Data 10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data 1</td>
+                                                <td>Data 2</td>
+                                                <td>Data 3</td>
+                                                <td>Data 4</td>
+                                                <td>Data 5</td>
+                                                <td>Data 6</td>
+                                                <td>Data 7</td>
+                                                <td>Data 8</td>
+                                                <td>Data 9</td>
+                                                <td>Data 10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data 1</td>
+                                                <td>Data 2</td>
+                                                <td>Data 3</td>
+                                                <td>Data 4</td>
+                                                <td>Data 5</td>
+                                                <td>Data 6</td>
+                                                <td>Data 7</td>
+                                                <td>Data 8</td>
+                                                <td>Data 9</td>
+                                                <td>Data 10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data 1</td>
+                                                <td>Data 2</td>
+                                                <td>Data 3</td>
+                                                <td>Data 4</td>
+                                                <td>Data 5</td>
+                                                <td>Data 6</td>
+                                                <td>Data 7</td>
+                                                <td>Data 8</td>
+                                                <td>Data 9</td>
+                                                <td>Data 10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data 1</td>
+                                                <td>Data 2</td>
+                                                <td>Data 3</td>
+                                                <td>Data 4</td>
+                                                <td>Data 5</td>
+                                                <td>Data 6</td>
+                                                <td>Data 7</td>
+                                                <td>Data 8</td>
+                                                <td>Data 9</td>
+                                                <td>Data 10</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+           
+      
+
+</body>
+
+</html>
